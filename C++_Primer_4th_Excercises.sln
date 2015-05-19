@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++_Primer_4th_Excercises", "C++_Primer_4th_Excercises\C++_Primer_4th_Excercises.vcxproj", "{0F2E39C0-A902-45C2-8990-3092744D0E4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter01", "Chapter01", "{31538183-B3BF-4809-ABFB-63315A07A666}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter01", "Chapter01\Chapter01.vcxproj", "{BCED4D51-F7C4-469A-93D7-63D31987EA95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F2E39C0-A902-45C2-8990-3092744D0E4C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F2E39C0-A902-45C2-8990-3092744D0E4C}.Debug|Win32.Build.0 = Debug|Win32
+		{0F2E39C0-A902-45C2-8990-3092744D0E4C}.Release|Win32.ActiveCfg = Release|Win32
+		{0F2E39C0-A902-45C2-8990-3092744D0E4C}.Release|Win32.Build.0 = Release|Win32
+		{BCED4D51-F7C4-469A-93D7-63D31987EA95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BCED4D51-F7C4-469A-93D7-63D31987EA95}.Debug|Win32.Build.0 = Debug|Win32
+		{BCED4D51-F7C4-469A-93D7-63D31987EA95}.Release|Win32.ActiveCfg = Release|Win32
+		{BCED4D51-F7C4-469A-93D7-63D31987EA95}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCED4D51-F7C4-469A-93D7-63D31987EA95} = {31538183-B3BF-4809-ABFB-63315A07A666}
+	EndGlobalSection
+EndGlobal
