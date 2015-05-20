@@ -47,27 +47,159 @@
 
 
 //2.11
-#include <iostream>
-using namespace std;
-
-void main() 
-{
-	double base, exponent;
-	cin >> base >> exponent;
-	double res = 1;
-	if (exponent == 0){
-		return;
-	}
-
-	for (int i = 1; i <= exponent; i++){
-		res *= base;
-	}
-	cout << res;
-	cin >> res;
-	getchar();
-}
-
+//#include <iostream>
+//using namespace std;
 //
+//void main() 
+//{
+//	double base, exponent;
+//	cin >> base >> exponent;
+//	double res = 1;
+//	if (exponent == 0){
+//		return;
+//	}
+//
+//	for (int i = 1; i <= exponent; i++){
+//		res *= base;
+//	}
+//	cout << res;
+//	cin >> res;
+//	getchar();
+//}
+
+//2.12 2.13 2.14 2.15pass
+
+//2.16
+//#include <iostream>
+//using namespace std;
+//
+//int main()
+//{
+//	int ival = ival;
+//	cout << ival;
+//	getchar();
+//}
+
+//2.17
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//int global_int;
+//
+//int main()
+//{
+//	int local_int;
+//	string local_str;
+//	cout << global_int << endl;
+//	cout << local_int << endl;
+//	cout << local_str << "bac" << endl;;
+//	getchar();
+//}
+
+//2.18 pass
+
+//2.19
+//#include <iostream>
+//using namespace std;
+//int i = 100;
+//int main()
+//{
+//	int i = 40;
+//	int j = i;
+//	cout << j << endl;
+//	getchar();
+//}
+
+//2.20
+//#include <iostream>
+//using namespace std;
+//
+//int main()
+//{
+//	int sum = 0, i = 100;
+//	for (int i = 0; i != 10; ++i)
+//		sum += i;
+//	cout << i << "  " << sum << endl;
+//	getchar();
+//}
+
+//2.21 2.22 pass
+
+//2.23
+//#include <iostream>
+//using namespace std;
+//
+//extern const int but;
+//int main()
+//{
+//	//extern const int but;
+//	cout << but << endl;
+//	getchar();
+//}
+
+//2.24 2.25 2.26 2.27
+//#include <iostream>
+//using namespace std;
+//
+//int main()
+//{
+//	const int ci = 5.5;
+//	const int &rci = ci; 
+//	getchar();
+//}
+
+//2.28
+//#include <iostream>
+//using namespace std;
+//class Foo{
+//
+//};
+//
+//int main()
+//{
+//
+//	getchar();
+//}
+
+//2.29 pass
+//2.30
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//
+//int main()
+//{
+//	getchar();
+//}
+//class PhoneNumber{
+//public:
+//	string name;
+//	string number;
+//};
+//
+//class Address{
+//public:
+//	string address;
+//	string zipcode;
+//	string state;
+//};
+//class Company{
+//public:
+//	PhoneNumber pn;
+//	Address ad;
+//	string name;
+//};
+//
+//class CollegeStudent{
+//private:
+//	string College;
+//	Address CollegeAddress;
+//	string Location;
+//	string Major;
+//	
+//};
+
+//2.31 2.32 2.33 pass
 //#include <iostream>
 //using namespace std;
 //
@@ -75,3 +207,5 @@ void main()
 //{
 //	getchar();
 //}
+
+
