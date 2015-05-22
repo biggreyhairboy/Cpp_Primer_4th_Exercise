@@ -200,13 +200,13 @@
 //};
 
 //2.31 2.32 2.33 pass
-#include <iostream>
-#include "Header.h"
-using namespace std;
-
-int main()
-{
-	getchar();
-}
-
+//#include <iostream>
+//#include "Header.h"
+//using namespace std;
+//
+//int main()
+//{
+//	getchar();
+//}
+//
 
